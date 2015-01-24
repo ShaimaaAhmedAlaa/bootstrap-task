@@ -1,0 +1,329 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Try</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../bootstrap-task/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body>
+
+<!-- starting the navbar
+ -->
+
+   <nav class="navbar navbar-inverse" role="navigation">
+
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      </div>
+
+    <div class="col-lg-12 class="collapse navbar-collapse" id="navbarCollapse"s">
+      <section class="logo pull-left">
+        <span class="name-head">Name</span>
+      </section>
+      <ul class="nav my-nav pull-right nav-pills">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Team</a></li>
+        <li role="presentation"><a href="#">Gallery</a></li>
+        <li role="presentation"><a href="#">Service</a></li>
+        <li role="presentation"><a href="#">Pricing Table</a></li>
+        <li role="presentation"><a href="#">Contact</a></li>
+        <li role="presentation"><a href="#">عربي</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+<!-- finished with the navbar -->
+<!-- ============================================= -->
+
+
+<!-- starting the carousel -->
+    <div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+<!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="slide1"></div>
+        </div>
+        <div class="item">
+            <div class="slide2"></div>
+        </div>
+        <div class="item">
+            <div class="slide3"></div>
+        </div>
+    </div><!-- .carousel-inner --> 
+    <div class="container carousel-overlay text-center">
+        <h1 class="hwelcome">Welcome to our website</h1>
+        <a class="btn btn-lg btn-success fp-buttons" href="#">
+            <span class="fa fa-dollar"></span> Take A Tour
+        </a>
+    </div>
+  </div><!-- .carousel --> 
+<!--end bg-carousel-->
+<!-- ============================================= -->
+<section class="service-part container">
+
+  <div class="service conrainer">
+
+    <!-- the carousel of service and its paragraph :D -->
+
+    <div id="myCarousel" class="carousel slide">
+   <!-- Carousel items -->
+      <div class="carousel-inner" role="listbox">
+        <div class="active item">
+          <h2>Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae obcaecati sint ratione? Aspernatur, harum! lorem10 </p>
+        </div>
+       </div>
+<!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    
+    </div>
+  </div>
+<!--  ===================== end ================= 
+
+
+<<start>> circles and data (service still) -->
+  <section class="container circles">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <img src="pics/girl.jpg" class="img-circle" alt="Circular Image">
+          <h3>Hosting</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, harum.</p>
+        <p> <button type="button" class="btn btn-primary btn-lg">Read More</button></p>
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <img src="pics/girl.jpg" class="img-circle" alt="Circular Image">
+          <h3>Hosting</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, harum.</p>
+        <p> <button type="button" class="btn btn-primary btn-lg">Read More</button></p>
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <img src="pics/girl.jpg" class="img-circle" alt="Circular Image">
+          <h3>Hosting</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, harum.</p>
+        <p> <button type="button" class="btn btn-primary btn-lg">Read More</button></p>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ========================================
+End of service part -->
+
+
+<!-- start of team part -->
+
+  <section class="team-part container">
+
+  <div class="team conrainer">
+
+    <!-- the carousel of service and its paragraph :D -->
+
+    <div id="myCarousel" class="carousel slide">
+   <!-- Carousel items -->
+      <div class="carousel-inner" role="listbox">
+        <div class="active item">
+          <h2>Team</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae obcaecati sint ratione? Aspernatur, harum! lorem10 </p>
+        </div>
+      </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+continue circles and data of team part -->
+  <section class="container circles">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <img  src="pics/girl.jpg" class="img-circle small-circle" alt="Circular Image">
+          <h3>Ms.Maryam</h3>
+          <h5> A demonstrator and .....</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, harum.</p>
+        <p> <button type="button" class="btn btn-primary btn-lg">Read More</button></p>
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <img  src="pics/girl.jpg" class="img-circle small-circle" alt="Circular Image">
+          <h3>Ms.Aya</h3>
+          <h5> A demonstrator and .....</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, harum.</p>
+        <p> <button type="button" class="btn btn-primary btn-lg">Read More</button></p>
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <img  src="pics/girl.jpg" class="img-circle small-circle" alt="Circular Image">
+          <h3>Ms. Samar</h3>
+          <h5> A demonstrator and .....</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, harum.</p>
+        <p> <button type="button" class="btn btn-primary btn-lg">Read More</button></p>
+      </div>
+    </div>
+  </section>
+<!-- End of team
+========================================== -->
+
+<!-- start of Gallery -->
+  <section class="gallery-part container">
+    <div class="team conrainer text-center">
+      <h2>Team</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae obcaecati sint ratione? Aspernatur, harum! lorem10 </p>
+    </div>
+  </section>
+  
+
+  <div class="gallery center-block ">
+    <div class="container">
+      <div class="keys text-center">
+        <h3 class="key"><span class="label label-primary active">ALL</span></h3>
+        <h3 class="key"><span class="label label-primary">WEB</span></h3>
+        <h3 class="key"><span class="label label-primary">BRAND</span></h3>
+        <h3 class="key"><span class="label label-primary">ICON</span></h3>
+      </div>
+        <div class="row squares">
+            <div class="col-sm-3">
+              <a href="#" class="img-rounded">
+                <img class="square" src="pics/girl.jpg" alt="100x100">
+              </a>
+              <p class="gallery-paragraph"> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-sm-3">
+                <a href="#" class="img-rounded">
+                  <img class="square" src="pics/girl.jpg" alt="100x100">
+                </a>
+                <p class="gallery-paragraph"> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-sm-3">
+                <a href="#" class="img-rounded">
+                  <img class="square" src="pics/girl.jpg" alt="100x100">
+                </a>
+                <p class="gallery-paragraph"> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-sm-3">
+                <a href="#" class="img-rounded">
+                  <img class="square" src="pics/girl.jpg" alt="100x100">
+                </a>
+                <p class="gallery-paragraph"> Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- End of gallery
+===========================================
+start of contact -->
+
+  <section class="contact-part container">
+    <div class="contact conrainer text-center">
+      <h2>Contact</h2>
+    </div>
+  </section>
+
+<!--   the tables and data unger Contact -->
+    
+    <section class="container">
+
+    <div class="row left big-row clear-fix">
+      <div class="col-sm-4">
+        <div class="form-group">
+          <input type="text" class="last-area form-control" id="inputName" placeholder="NAME">
+          <br>
+          <br>
+          
+          <input type="email" class="last-area form-control" id="inputEmail" placeholder="EMAIL">
+
+        </div>
+      </div>
+      <div class="col-sm-8 right blog-sidebar ">
+        <div class="sidebar-module sidebar-module-inset">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptas inventore, alias! Quia necessitatibus, velit reiciendis rerum veniam sed architecto tenetur, veritatis quam commodi mollitia repellendus explicabo amet modi ab qui perferendis ipsa tempore odit saepe, nihil dolor numquam officia sint eius. Soluta expedita magni, quod labore aut vero, numquam!
+          </p>
+        </div>
+
+ 
+      </div>
+    </div>
+
+
+
+      <div class="row">
+        <div class="col-sm-4">
+          <textarea class="form-control" name="content" placeholder="MESSAGE" rows="7" data-fv-field="content"></textarea>
+          <br>
+          <p>
+            <button type="button" class="btn btn-primary btn-lg send">Send</button>
+          </p>
+        </div>
+        <div class="col-sm-8 right blog-sidebar ">
+          <div class="sidebar-module sidebar-module-inset">
+            <p><strong>18 abo Bakr El Sedeek St., El Kholafaa El Rashedeen, MAnsoura, Arab Republic of Egypt. <br> T: 2209880 <br> M: 0109899775</strong></p>
+          </div>
+        </div>
+      </div>
+
+    
+  </section>
+  <div class="row-fluid">
+    <footer class="span12">
+      <div class="container clear-fix pull-left half-footer navbar ">
+          <span class="container">© All Rights Reserved</span>
+      </div>
+      <div class="container clear-fix pull-right half-footer navbar other-half">
+       <span class="icons container"> <a href=""><img class="icon" src="pics/facebook.jpg" alt=""></a>
+        <a href=""><img class="icon" src="pics/twitter.jpg" alt=""></a>
+        <a href=""><img class="icon" src="pics/google.jpg" alt=""></a>
+        <a class="up carousel carousel-control.up" href="#" role="button" data-slide="up">
+          <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+          <span class="sr-only">UP</span>
+        </a></span>
+      </div>
+      
+    </footer>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/.../js/bootstrap.min.js"></script>
+
+</body>
+</html>
